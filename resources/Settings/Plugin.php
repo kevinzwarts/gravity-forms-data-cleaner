@@ -1,8 +1,8 @@
 <?php
 
-namespace ZwartsFormDataCleaner\Settings;
+namespace GravityFormsDataCleaner\Settings;
 
-use ZwartsFormDataCleaner\SettingsPage\AdminPageLoader;
+use GravityFormsDataCleaner\SettingsPage\AdminPageLoader;
 
 class Plugin
 {

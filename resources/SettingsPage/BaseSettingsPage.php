@@ -1,13 +1,6 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Kevin
- * Date: 10/3/2017
- * Time: 8:29 PM
- */
 
-namespace ZwartsFormDataCleaner\SettingsPage;
-
+namespace GravityFormsDataCleaner\SettingsPage;
 
 abstract class BaseSettingsPage
 {

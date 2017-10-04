@@ -7,9 +7,9 @@ namespace Composer\Autoload;
 class ComposerStaticInitfb7c9a69656a9ec5d40c1c1063df39a8
 {
     public static $prefixLengthsPsr4 = array (
-        'Z' => 
+        'G' => 
         array (
-            'ZwartsFormDataCleaner\\' => 22,
+            'GravityFormsDataCleaner\\' => 24,
         ),
         'C' => 
         array (
@@ -18,7 +18,7 @@ class ComposerStaticInitfb7c9a69656a9ec5d40c1c1063df39a8
     );
 
     public static $prefixDirsPsr4 = array (
-        'ZwartsFormDataCleaner\\' => 
+        'GravityFormsDataCleaner\\' => 
         array (
             0 => __DIR__ . '/../..' . '/resources',
         ),

@@ -6,6 +6,6 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'ZwartsFormDataCleaner\\' => array($baseDir . '/resources'),
+    'GravityFormsDataCleaner\\' => array($baseDir . '/resources'),
     'Composer\\Installers\\' => array($vendorDir . '/composer/installers/src/Composer/Installers'),
 );

@@ -1,6 +1,6 @@
 <?php
 
-namespace ZwartsFormDataCleaner\Settings;
+namespace GravityFormsDataCleaner\Settings;
 
 class GravityFormsSettings implements ISettings
 {

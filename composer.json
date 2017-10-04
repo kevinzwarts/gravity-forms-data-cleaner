@@ -7,12 +7,12 @@
     {
       "name": "Kevin Zwarts",
       "email": "zwartsk@gmail.com",
-      "homepage": "http://www.dannyvanholten.com/"
+      "homepage": "http://www.kevinzwarts.nl"
     }
   ],
   "autoload": {
     "psr-4": {
-      "ZwartsFormDataCleaner\\": "resources/"
+      "GravityFormsDataCleaner\\": "resources/"
     },
     "files": [
     ]

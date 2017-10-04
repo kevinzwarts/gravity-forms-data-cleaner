@@ -1,6 +1,6 @@
 <?php
 
-namespace ZwartsFormDataCleaner\Cleaners;
+namespace GravityFormsDataCleaner\Cleaners;
 
 interface ICleaner
 {

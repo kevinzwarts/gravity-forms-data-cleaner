@@ -1,6 +1,6 @@
 <?php
 
-namespace ZwartsFormDataCleaner\SettingsPage;
+namespace GravityFormsDataCleaner\SettingsPage;
 
 class AdminPageLoader
 {

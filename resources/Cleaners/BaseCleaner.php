@@ -6,10 +6,10 @@
  * Time: 10:48 PM
  */
 
-namespace ZwartsFormDataCleaner\Cleaners;
+namespace GravityFormsDataCleaner\Cleaners;
 
 
-use ZwartsFormDataCleaner\Settings\ISettings;
+use GravityFormDataCleaner\Settings\ISettings;
 
 abstract class BaseCleaner implements ICleaner
 {

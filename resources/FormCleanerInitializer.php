@@ -1,12 +1,11 @@
 <?php
-namespace ZwartsFormDataCleaner;
+namespace GravityFormsDataCleaner;
 
-use ZwartsFormDataCleaner\Cleaners\GravityFormsCleaner;
-use ZwartsFormDataCleaner\Cleaners\ICleaner;
-use ZwartsFormDataCleaner\Cleaners\NinjaFormsCleaner;
-use ZwartsFormDataCleaner\Settings\GravityFormsSettings;
-use ZwartsFormDataCleaner\Settings\ISettings;
-use ZwartsFormDataCleaner\Settings\NinjaFormsSettings;
+use GravityFormsDataCleaner\Cleaners\GravityFormsCleaner;
+use GravityFormsDataCleaner\Cleaners\ICleaner;
+use GravityFormsDataCleaner\Cleaners\NinjaFormsCleaner;
+use GravityFormsDataCleaner\Settings\GravityFormsSettings;
+use GravityFormsDataCleaner\Settings\NinjaFormsSettings;
 
 class FormCleanerInitializer
 {

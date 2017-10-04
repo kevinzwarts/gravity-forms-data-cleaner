@@ -6,7 +6,7 @@
  * Time: 8:21 PM
  */
 
-namespace ZwartsFormDataCleaner\SettingsPage;
+namespace GravityFormsDataCleaner\SettingsPage;
 
 
 class GeneralAdminTab extends BaseSettingsPage implements IAdminPageTab

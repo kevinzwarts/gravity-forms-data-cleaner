@@ -9,8 +9,8 @@ Author URI: https://bitbucket.org/kevinzwarts/
 License: GPLv2 or later
 */
 
-use \ZwartsFormDataCleaner\Settings\Plugin;
-use \ZwartsFormDataCleaner\FormCleanerInitializer;
+use \GravityFormsDataCleaner\Settings\Plugin;
+use \GravityFormsDataCleaner\FormCleanerInitializer;
 
 defined('ABSPATH') or die('No script kiddies please!');
 
@@ -23,6 +23,6 @@ require_once __DIR__ . '/vendor/autoload.php';
 
 $plugin = new Plugin();
 $plugin->loadSettingsPage();
-//
-$cleaner = new FormCleanerInitializer();
-$cleaner->clean();
+
+//$cleaner = new FormCleanerInitializer();
+//$cleaner->clean();

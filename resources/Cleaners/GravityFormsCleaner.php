@@ -1,13 +1,23 @@
 <?php
 
-namespace ZwartsFormDataCleaner\Cleaners;
+namespace GravityFormsDataCleaner\Cleaners;
 
-use ZwartsFormDataCleaner\Settings\ISettings;
+use GravityFormsDataCleaner\Settings\ISettings;
 
 class GravityFormsCleaner extends BaseCleaner implements ICleaner
 {
+    const FORM_ROWS_TABLE = 'form_meta';
+
+    public $deleteDataUntill = null; // Remove data from beginning to given date
+
+    public function __construct() {
+
+    }
+
     public function clean()
     {
-        // TODO: Implement clean() method.
+        global $wpdb;
+
+        $wpdb->delete(self::FORM_ROWS_TABLE, []);
     }
 }

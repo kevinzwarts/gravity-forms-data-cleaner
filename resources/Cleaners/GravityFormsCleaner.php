@@ -5,7 +5,7 @@ namespace GravityFormsDataCleaner\Cleaners;
 
 class GravityFormsCleaner extends BaseCleaner implements ICleaner
 {
-    const FORM_ROWS_TABLE = 'rg_form_meta';
+    const FORM_ROWS_TABLE = 'rg_lead';
 
     public $deleteDataUntill = null; // Remove data from beginning to given date
 
@@ -14,6 +14,6 @@ class GravityFormsCleaner extends BaseCleaner implements ICleaner
         global $wpdb;
 
         // Delete all submitted values untill a given date
-        $wpdb->delete($wpdb->prefix . self::FORM_ROWS_TABLE, ['form_id' => 1]);
+        $wpdb->delete($wpdb->prefix . self::FORM_ROWS_TABLE, ['date_created' => date('d-m-Y', strtotime('now'))]);
     }
 }

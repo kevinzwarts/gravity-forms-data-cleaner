@@ -1,8 +1,8 @@
 <?php
 /*
-Plugin Name: Zwarts Form Data Cleaner
+Plugin Name: Gravity Forms Data Cleaner
 Plugin URI: https://kevinzwarts.nl/
-Description: Form data cleaner to clean form data after a given period of time or manually from a certain date
+Description: Gravity Forms data cleaner to clean form data after a given period of time or manually from a certain date
 Version: 0.1
 Author: Kevin Zwarts
 Author URI: https://bitbucket.org/kevinzwarts/

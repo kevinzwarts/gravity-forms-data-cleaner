@@ -11,7 +11,6 @@ class AdminPageLoader
         $this->pages = [
             new GeneralAdminTab(),
             new GravityFormsAdminTab(),
-            new NinjaFormsAdminTab(),
         ];
     }
 

@@ -24,5 +24,5 @@ require_once __DIR__ . '/vendor/autoload.php';
 $plugin = new Plugin();
 $plugin->loadSettingsPage();
 
-//$cleaner = new FormCleanerInitializer();
-//$cleaner->clean();
+$cleaner = new FormCleanerInitializer();
+$cleaner->clean();

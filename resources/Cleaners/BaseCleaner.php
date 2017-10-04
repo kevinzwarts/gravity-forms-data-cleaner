@@ -9,7 +9,7 @@
 namespace GravityFormsDataCleaner\Cleaners;
 
 
-use GravityFormDataCleaner\Settings\ISettings;
+use GravityFormsDataCleaner\Settings\ISettings;
 
 abstract class BaseCleaner implements ICleaner
 {
